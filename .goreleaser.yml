@@ -1,5 +1,5 @@
 builds:
-  - dir: ./hook/
+  - dir: ./
     main: .
     id: "smiley"
     binary: "optimus-smiley_{{.Os}}_{{.Arch}}"
