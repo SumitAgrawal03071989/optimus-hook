@@ -3,8 +3,8 @@ builds:
     main: .
     id: "smiley"
     binary: "optimus-smiley_{{.Os}}_{{.Arch}}"
-    ldflags:
-      - -s -w -X main.Version={{.Version}} -X main.Image=ghcr.io/sumitagrawal03071989/optimus-hook-smiley-executor
+#    ldflags:
+#      - -s -w -X main.Version={{.Version}} -X main.Image=ghcr.io/sumitagrawal03071989/optimus-hook-smiley-executor
     goos:
       - linux
       - darwin
